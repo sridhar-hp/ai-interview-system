@@ -84,7 +84,7 @@ function Home() {
 
                 const response =
                     await axios.get(
-                        "http://localhost:5000/api/interview/all"
+                        "https://ai-interview-system-lc2w.onrender.com/api/interview/all"
                     );
 
                 setInterviews(
@@ -172,7 +172,7 @@ function Home() {
         try {
 
             await axios.post(
-                "http://localhost:5000/api/interview/save",
+                "https://ai-interview-system-lc2w.onrender.com/api/interview/save",
                 {
                     candidateName,
                     answers
